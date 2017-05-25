@@ -1,0 +1,415 @@
+/*
+accent color: #00ff64
+brand colour: #64285a
+headings: #64285a
+paragragh:#b93798
+white: #fff
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+	color: #64285a;
+}
+
+ h2 {
+  color: #64285a;
+}
+
+h4{
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #64285a;
+
+}
+
+p {
+	color: #b93798;
+  font-weight: 300;
+} 
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Header styling*/
+
+.header {
+  background-color: #64285a;
+  padding: 0 10px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#name {
+  font-size: 1.50rem;
+  font-weight: 400;
+  color: #00ff64;
+  background-color: #64285a;
+  margin-right: 250px
+}
+
+.nav li {
+  color: #00ff64;
+  padding: 10px;
+  display: inline;
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 10%;
+}
+
+.nav a {
+text-decoration: none;
+}
+
+/*Banner Styling*/
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  background: url(images/tokyogold.jpg) no-repeat center center;
+  background-size: cover;
+  height: 44rem;
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+
+}
+
+.jumbotron1 {
+  background: url(images/me.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 44rem;
+  display: block;
+  margin: 0px auto;
+}
+
+.jumbotron2 {
+  background: url(images/banner.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  display: block;
+  margin: 0px auto;
+}
+
+.jumbotron3 {
+  background: url(images/blog.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  display: block;
+  margin: 0px auto;
+}
+
+.jumbotron4 {
+  background: url(images/banner1.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+  display: block;
+  margin: 0px auto;
+}
+
+.jumbotron5 {
+  background: url(images/meextra.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+  display: block;
+  margin: 0px auto;
+}
+.welcome {
+	background-color: #64285a;
+	margin: 0;
+}
+
+.main {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.main h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: #00ff64;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+}
+
+/*Colums styling*/
+
+.skills {
+  border-spacing: 15px;
+  width: 99%;
+  border-radius: 10%;
+  border: 3px solid #64285a;
+  padding: 20px;
+  margin: 5px;
+}
+
+.skills th {
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.skills td {
+  background-color:#64285a;
+    padding: 5px;
+    text-align: center;
+    color: #00ff64;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 21%;
+}
+
+.education {
+  border-spacing: 15px;
+  width: 99%;
+  border-radius: 10%;
+  border: 3px solid #64285a;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.education th {
+    padding: 5px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.education td {
+    padding: 5px;
+    text-align: right;
+    color: #b93798;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.work {
+  border-spacing: 15px;
+  width: 99%;
+  border-radius: 10%;
+  border: 3px solid #64285a;
+  padding: 10px;
+  margin: 40px 10px;
+  text-align: center;
+}
+
+.work th {
+    padding: 5px;
+    text-align: left;
+   font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.work td {
+    text-align: right;
+    color: #b93798;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.section {
+  padding: 20px 60px;
+  background-color: #FFFFFF;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 25px 80px;
+}
+
+.section h1 {
+  text-transform: uppercase;
+}
+
+.section img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  padding: 5%;
+  text-align: center;
+}
+
+.section .col {
+  float: left;
+  width: 92%;
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  border: solid 2px #00ff64;
+  margin: 20px 0;
+}
+
+.mediumLogo .col {
+  float: left;
+  width: 92%;
+  background-color: #64285a;
+  padding: 10px 40px;
+  margin: 10px 0;
+}
+
+.social {
+  list-style: none;
+  padding: 0 0;
+  text-align: center;
+  background-color: #64285a;
+}
+
+.social li {
+  display: inline;
+  background-color: #64285a;
+  }
+ 
+ .describe {
+  color: #64285a;
+  text-decoration: underline;
+ }
+
+  #contact {
+  color: #64285a;
+  text-decoration: underline;
+  text-align: center;
+ }
+
+.supporting {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: auto;
+}
+
+.supporting .col {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.supporting img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10%;
+  padding: 5%;
+ 
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.btn-main {
+  
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 1.3px;
+  padding: 16px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 2px solid #64285a;
+  border-radius: 4%;
+  color: #00ff64;
+  font-weight: 600;
+  font-size: 0.625rem;
+  background-color: #64285a;
+  letter-spacing: 1.3px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;      
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*Footer styling*/
+
+.footer {
+  background-color: #64285a;
+  color: #fff;
+  }
+
+.footer p {
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin: 10px 0;
+ }
+
+.logo {
+  margin:0 0;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+
+
