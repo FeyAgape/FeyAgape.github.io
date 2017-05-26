@@ -98,14 +98,15 @@ p {
   margin: 0;
   padding: 0 0;
   text-align: center;
+overflow: hidden;
 }
 
 #name {
   font-size: 1.50rem;
   padding: 15px 10px;
   font-weight: 500;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
   color: #5EFC8D;
   text-transform: uppercase;
 }
@@ -121,8 +122,6 @@ li {
   display: inline-block;
   font-weight: 600;
   font-size: 0.95rem;
-  margin-left: 25px;
-  margin-right: 25px;
   text-transform: uppercase;
   text-decoration: none;
 }
