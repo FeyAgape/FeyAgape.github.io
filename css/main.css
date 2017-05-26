@@ -26,7 +26,7 @@ html {
 h1 {
 font-size: 2.5rem;
 color: #64285a;
-font-weight: 600;
+font-weight: 400;
 text-transform: uppercase;
 text-align: center;
 }
@@ -73,7 +73,7 @@ text-decoration: none;
 
 p {
   color: #0E1116;
-  font-weight: 500;
+  font-weight: 600;
 } 
 
 * {
