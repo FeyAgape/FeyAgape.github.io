@@ -107,7 +107,7 @@ p {
   color: #5EFC8D;
 }
 
-.nav li {
+.nav li a {
   color: #EAEFD3;
   padding: 10px;
   display: inline-block;
@@ -116,11 +116,13 @@ p {
   margin-left: 25px;
   margin-right: 25px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.nav a {
-text-decoration: none;
-color: #EAEFD3;
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: #EAEFD3;
+    color: #64285a;
 }
 
 /*Banner Styling*/
