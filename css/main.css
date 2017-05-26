@@ -74,6 +74,7 @@ text-decoration: none;
 p {
   color: #0E1116;
   font-weight: 500;
+  text-align: justify;
 } 
 
 * {
@@ -110,8 +111,9 @@ p {
   padding: 10px;
   display: inline;
   font-weight: 600;
-  font-size: 0.85rem;
-  margin-right: 50px;
+  font-size: 0.95rem;
+  margin-left: 25px;
+  margin-right: 25px;
   text-transform: uppercase;
 }
 
