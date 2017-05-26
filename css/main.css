@@ -103,13 +103,14 @@ p {
 #name {
   font-size: 1.50rem;
   font-weight: 500;
-  margin-right: 250px
+  margin-right: 250px;
+  color: #5EFC8D;
 }
 
 .nav li {
   color: #EAEFD3;
   padding: 10px;
-  display: inline;
+  display: inline-block;
   font-weight: 600;
   font-size: 0.95rem;
   margin-left: 25px;
