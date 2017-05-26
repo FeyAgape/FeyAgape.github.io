@@ -1,14 +1,22 @@
-/*
-accent color: #00ff64
-brand colour: #64285a
-headings: #64285a
-paragragh:#b93798
-white: #fff
+/* Colour Palette 
+
+Brand colour - Palatinate purple: #64285A; hsla(310%, 43%, 27%, 1); rgba(100, 40, 90, 1);
+Black - Licorice: #0E1116;  hsla(218%, 22%, 7%, 1); rgba(14, 17, 22, 1);
+White - Eggshell: #EAEFD3; hsla(71, 47%, 88%, 1); rgba(234, 239, 211, 1);
+Primary colours 1 - Very light malachite green: #5EFC8D; hsla(138%, 96%, 68%, 1); rgba(94, 252, 141, 1);
+Primary colours 2 - Maya blue: #6CCFF6; hsla(197%, 88%, 69%, 1); rgba(108, 207, 246, 1);
+Primary colours 3 - Citrine; #E3B505; hsla(48%, 96%, 45%, 1); rgba(227, 181, 5, 1);
+
 */
 
-html, body {
+html {
   margin: 0;
   padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
 }
 
 html {
@@ -16,23 +24,56 @@ html {
 }
 
 h1 {
-	color: #64285a;
+font-size: 3.5rem;
+color: #64285a;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
 }
 
- h2 {
-  color: #64285a;
+h2 {
+ color: #64285a;
+ font-size: 2.8rem;
+ font-weight: 400;
+ text-transform: uppercase;
+ text-align: center;
 }
 
+/* Primary colour 1 - Very light malachite green  */
+h3 {
+ color: #5EFC8D;
+ font-size: 2rem;
+ font-weight: 400;
+}
+
+/* Primary colour 2 - Maya blue  */
 h4{
-  font-size: 1.25rem;
-  font-weight: 300;
-  color: #64285a;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #6CCFF6;
+}
 
+/* Primary colour 3 - Citrine  */
+h5 {
+ color: #E3B505;
+ font-size: 2rem;
+ font-weight: 400;
+}
+
+/* Black - Licorice */
+h6 {
+ color: #0E1116;
+ font-size: 1.25rem;
+ font-weight: 400;
+}
+
+ a {
+text-decoration: none;
 }
 
 p {
-	color: #b93798;
-  font-weight: 300;
+  color: #0E1116;
+  font-weight: 500;
 } 
 
 * {
@@ -156,14 +197,9 @@ text-decoration: none;
 }
 
 .main h1 {
-  font-weight: 400;
-  font-size: 3.5rem;
-  color: #00ff64;
   margin-top: 0;
   margin-bottom: 10px;
-  text-transform: uppercase;
-
-}
+  }
 
 /*Colums styling*/
 
@@ -257,7 +293,7 @@ text-decoration: none;
 }
 
 .section h1 {
-  text-transform: uppercase;
+  
 }
 
 .section img {
@@ -333,10 +369,8 @@ text-decoration: none;
 }
 
 .supporting h2 {
-  font-weight: 600;
-  font-size: 1.45rem;
-  text-transform: uppercase;
-  text-align: center;
+  /*font-weight: 600;
+  font-size: 1.45rem;*/
 }
 
 .supporting p {
