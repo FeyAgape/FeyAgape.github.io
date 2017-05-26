@@ -24,31 +24,31 @@ html {
 }
 
 h1 {
-font-size: 3.5rem;
+font-size: 2rem;
 color: #64285a;
-font-weight: 400;
+font-weight: 600;
 text-transform: uppercase;
 text-align: center;
 }
 
 h2 {
  color: #64285a;
- font-size: 2.8rem;
+ font-size: 1.75rem;
  font-weight: 400;
  text-transform: uppercase;
  text-align: center;
 }
 
-/* Primary colour 1 - Very light malachite green  */
+/* Black - Licorice */
 h3 {
- color: #5EFC8D;
- font-size: 2rem;
- font-weight: 400;
+ color: #0E1116;
+ font-size: 1.75rem;
+ font-weight: 500;
 }
 
 /* Primary colour 2 - Maya blue  */
 h4{
-  font-size: 2rem;
+  font-size:1.5rem;
   font-weight: 400;
   color: #6CCFF6;
 }
@@ -56,14 +56,14 @@ h4{
 /* Primary colour 3 - Citrine  */
 h5 {
  color: #E3B505;
- font-size: 2rem;
+ font-size: 1.5rem;
  font-weight: 400;
 }
 
-/* Black - Licorice */
+/* Primary colour 1 - Very light malachite green  */
 h6 {
- color: #0E1116;
- font-size: 1.25rem;
+ color: #5EFC8D;
+ font-size: 1.5rem;
  font-weight: 400;
 }
 
@@ -185,7 +185,7 @@ text-decoration: none;
   margin: 0px auto;
 }
 .welcome {
-	background-color: #64285a;
+	background-color: #EAEFD3;
 	margin: 0;
 }
 
