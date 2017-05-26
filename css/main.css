@@ -73,7 +73,7 @@ text-decoration: none;
 
 p {
   color: #0E1116;
-  font-weight: 600;
+  font-weight: 500;
 } 
 
 * {
@@ -101,14 +101,12 @@ p {
 
 #name {
   font-size: 1.50rem;
-  font-weight: 400;
-  color: #00ff64;
-  background-color: #64285a;
+  font-weight: 500;
   margin-right: 250px
 }
 
 .nav li {
-  color: #00ff64;
+  color: #EAEFD3;
   padding: 10px;
   display: inline;
   font-weight: 400;
