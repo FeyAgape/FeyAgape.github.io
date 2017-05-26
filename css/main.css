@@ -109,11 +109,10 @@ p {
   color: #EAEFD3;
   padding: 10px;
   display: inline;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.85rem;
   margin-right: 50px;
   text-transform: uppercase;
-  border-radius: 10%;
 }
 
 .nav a {
