@@ -31,6 +31,7 @@ text-transform: uppercase;
 text-align: center;
 }
 
+/* Brand colour */
 h2 {
  color: #64285a;
  font-size: 1.5rem;
@@ -43,28 +44,34 @@ h2 {
 h3 {
  color: #0E1116;
  font-size: 1.5rem;
- font-weight: 500;
+ font-weight: 400;
+ text-transform: uppercase;
+ text-align: center
 }
 
-/* Primary colour 2 - Maya blue  */
+/* White - Eggshell  */
 h4{
   font-size:1.5rem;
   font-weight: 400;
-  color: #6CCFF6;
+  color:  #EAEFD3;
+  text-transform: uppercase;
+  text-align: center
 }
 
-/* Primary colour 3 - Citrine  */
+/* Black - Licorice -Medium align justify */
 h5 {
  color: #E3B505;
- font-size: 1.5rem;
+ font-size: 1rem;
  font-weight: 400;
+ text-align: justify;
 }
 
-/* Primary colour 1 - Very light malachite green  */
+/* Black - Licorice -Medium align center */
 h6 {
- color: #5EFC8D;
- font-size: 1.5rem;
+ color: #E3B505;
+ font-size: 1rem;
  font-weight: 400;
+ text-align: center;
 }
 
  a {
@@ -73,7 +80,9 @@ text-decoration: none;
 
 p {
   color: #0E1116;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
   text-align: justify;
 } 
 
@@ -384,16 +393,13 @@ li {
 }
 
 .supporting p {
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 20px;
+  /*  line-height: 20px;*/
   padding: 0 20px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .btn-main {
-  
   color: #fff;
   font-weight: 600;
   font-size: 1.125rem;
@@ -405,8 +411,8 @@ li {
 
 .btn-default {
   border: 2px solid #64285a;
-  border-radius: 4%;
-  color: #00ff64;
+  border-radius: 5%;
+  color: #EAEFD3;
   font-weight: 600;
   font-size: 0.625rem;
   background-color: #64285a;
