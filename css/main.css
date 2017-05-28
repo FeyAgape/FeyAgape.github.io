@@ -215,6 +215,7 @@ li {
 .main h1 {
   margin-top: 0;
   margin-bottom: 10px;
+text-decoration: underline;
   }
 
 /*Colums styling*/
@@ -240,7 +241,7 @@ li {
   background-color:#64285a;
     padding: 5px;
     text-align: center;
-    color: #00ff64;
+    color: #5EFC8D;
     font-weight: 400;
     font-size: 1rem;
     border-radius: 21%;
@@ -325,7 +326,7 @@ li {
   width: 92%;
   background-color: #FFFFFF;
   padding: 20px 40px;
-  border: solid 2px #00ff64;
+  border: solid 2px #5EFC8D;
   margin: 20px 0;
 }
 
