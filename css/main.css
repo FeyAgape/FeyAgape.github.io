@@ -220,16 +220,16 @@ text-decoration: underline;
 
 /*Colums styling*/
 
-.skills {
+.skillstwo {
   border-spacing: 15px;
   width: 99%;
   border-radius: 10%;
-  border: 3px solid #64285a;
+  border: 3px solid #6CCFF6;
   padding: 20px;
   margin: 5px;
 }
 
-.skills th {
+.skillstwo th {
     padding: 5px;
     text-align: center;
     font-weight: 600;
@@ -237,11 +237,11 @@ text-decoration: underline;
     text-transform: uppercase;
 }
 
-.skills td {
-  background-color:#E3B505;
+.skillstwo td {
+  background-color:#6CCFF6;
     padding: 5px;
     text-align: center;
-    color: #5EFC8D;
+    color: #fff;
     font-weight: 400;
     font-size: 1rem;
     border-radius: 21%;
