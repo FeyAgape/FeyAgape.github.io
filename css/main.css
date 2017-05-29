@@ -330,6 +330,7 @@ text-decoration: underline;
 
    background-color:#E3B505;
    color: #fff;
+  padding: 10px 10px;
 }
 
 .section .colbrand {
@@ -345,6 +346,7 @@ text-decoration: underline;
 
    background-color: #64285A;
    color: #fff;
+   padding: 10px 10px;
 }
 
 .section .colone {
@@ -360,6 +362,7 @@ text-decoration: underline;
 
    background-color:#6CCFF6;
    color: #fff;
+   padding: 10px 10px;
 }
 
 .section .coltwo {
@@ -375,6 +378,7 @@ text-decoration: underline;
 
    background-color:#5EFC8D;
    color: #fff;
+   padding: 10px 10px;
 }
 
 .mediumLogo .col {
