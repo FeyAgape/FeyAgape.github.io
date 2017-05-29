@@ -278,7 +278,7 @@ text-decoration: underline;
   border-spacing: 15px;
   width: 99%;
   border-radius: 10%;
-  border: 3px solid #64285a;
+  border: 3px solid #5EFC8D;
   padding: 20px;
   margin: 5px;
   text-align: center;
@@ -295,7 +295,7 @@ text-decoration: underline;
 .education td {
     padding: 5px;
     text-align: right;
-    color: #b93798;
+    color: #5EFC8D;
     font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
@@ -305,7 +305,7 @@ text-decoration: underline;
   border-spacing: 15px;
   width: 99%;
   border-radius: 10%;
-  border: 3px solid #64285a;
+  border: 3px solid #E3B505;
   padding: 10px;
   margin: 40px 10px;
   text-align: center;
@@ -321,7 +321,7 @@ text-decoration: underline;
 
 .work td {
     text-align: right;
-    color: #b93798;
+    color: #E3B505;
     font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
