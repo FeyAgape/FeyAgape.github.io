@@ -309,10 +309,6 @@ text-decoration: underline;
   margin: 25px 80px;
 }
 
-.section h1 {
-  
-}
-
 .section img {
   max-width: 90%;
   height: auto;
@@ -326,8 +322,59 @@ text-decoration: underline;
   width: 92%;
   background-color: #FFFFFF;
   padding: 20px 40px;
-  border: solid 2px #E3B505;
+  /*border: solid 2px #E3B505;*/
   margin: 20px 0;
+}
+
+.section .col h1 {
+
+   background-color:#E3B505;
+   color: #fff;
+}
+
+.section .colbrand {
+  float: left;
+  width: 92%;
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  /*border: solid 2px #64285A;*/
+  margin: 20px 0;
+}
+
+.section .colbrand h1 {
+
+   background-color: #64285A;
+   color: #fff;
+}
+
+.section .colone {
+  float: left;
+  width: 92%;
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  /*border: solid 2px #6CCFF6;*/
+  margin: 20px 0;
+}
+
+.section .colone h1 {
+
+   background-color:#6CCFF6;
+   color: #fff;
+}
+
+.section .coltwo {
+  float: left;
+  width: 92%;
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  /*border: solid 2px #5EFC8D;*/
+  margin: 20px 0;
+}
+
+.section .coltwo h1 {
+
+   background-color:#5EFC8D;
+   color: #fff;
 }
 
 .mediumLogo .col {
