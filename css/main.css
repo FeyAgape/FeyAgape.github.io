@@ -238,10 +238,37 @@ text-decoration: underline;
 }
 
 .skills td {
-  background-color:#64285a;
+  background-color:#E3B505;
     padding: 5px;
     text-align: center;
     color: #5EFC8D;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 21%;
+}
+
+.skillsone {
+  border-spacing: 15px;
+  width: 99%;
+  border-radius: 10%;
+  border: 3px solid #E3B505;
+  padding: 20px;
+  margin: 5px;
+}
+
+.skillsone th {
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.skillsone td {
+  background-color:#E3B505;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
     font-weight: 400;
     font-size: 1rem;
     border-radius: 21%;
