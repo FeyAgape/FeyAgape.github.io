@@ -83,6 +83,7 @@ p {
   text-align: center;
 } 
 
+
 * {
 	font-family: 'Raleway', sans-serif;
 }
@@ -340,7 +341,17 @@ color: #5EFC8D;
   margin: 25px 80px;
 }
 
+.section iframe {
+ border:2px solid #6CCFF6;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  padding: 5%;
+  text-align: center;
+}
+
 .section img {
+  background-color: #EAEFD3;
   max-width: 90%;
   height: auto;
   display: block;
