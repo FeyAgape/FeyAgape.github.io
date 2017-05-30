@@ -166,6 +166,15 @@ li {
   margin: 0px auto;
 }
 
+.jumbotron6 {
+  background: url(images/portfolio.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 44rem;
+  display: block;
+  margin: 0px auto;
+}
+
 .jumbotron2 {
   background: url(images/banner.png) no-repeat center center;
   background-size: cover;
