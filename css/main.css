@@ -432,10 +432,23 @@ color: #E3B505;
 .mediumLogo .col {
   float: left;
   width: 92%;
-  background-color: #E3B505;
+  background-color: #64285A;
   padding: 10px 40px;
   margin: 10px 10px;
   text-align: center;
+}
+
+.meduimLogo ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.mediumLogo img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  padding-bottom: 10px;
 }
 
 .social {
