@@ -440,23 +440,30 @@ color: #E3B505;
 
 .meduimLogo ul {
   list-style: none;
-  display: flex;
   text-align: center;
 }
 
 .mediumLogo img {
-  width: 32px;
-  height: 32px;
-  margin: 0 10px;
-  padding-bottom: 10px;
+  width: 64px;
+  height: 64px;
+  margin: 10px 10px;
+  padding: 10px 10px;
 }
 
-.social {
+.mediumLogo .social {
   list-style: none;
   padding: 0 0;
   text-align: center;
   background-color: #64285A;
 }
+
+ .social {
+  list-style: none;
+  padding: 0 0;
+  text-align: center;
+  background-color: #64285A;
+}
+	
 
 .social li {
   display: inline;
