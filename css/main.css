@@ -148,7 +148,7 @@ li {
 }
 
 .jumbotron {
-  background: url(images/tokyogold.jpg) no-repeat center center;
+  background: url(images/landingpage.JPG) no-repeat center center;
   background-size: cover;
   height: 44rem;
   width: 100%;
@@ -167,7 +167,7 @@ li {
 }
 
 .jumbotron6 {
-  background: url(images/portfolio.jpg) no-repeat center center;
+  background: url(images/aboutpage.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 44rem;
