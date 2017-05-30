@@ -462,10 +462,13 @@ color: #E3B505;
 
 .supporting {
   padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
   padding-bottom: 80px;
   background-color: #FFFFFF;
   width: 100%;
   height: auto;
+	
 }
 
 .supporting .col {
@@ -473,7 +476,6 @@ color: #E3B505;
   width: 25%;
   text-align: center;
   background-color: #FFF;
-  padding: 5% 5%;
 }
 
 .supporting img {
