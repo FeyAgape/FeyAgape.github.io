@@ -176,7 +176,7 @@ li {
 }
 
 .jumbotron2 {
-  background: url(images/banner.png) no-repeat center center;
+  background: url(images/contactpage.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 30rem;
@@ -473,6 +473,7 @@ color: #E3B505;
   width: 25%;
   text-align: center;
   background-color: #FFF;
+  padding: 5% 5%;
 }
 
 .supporting img {
@@ -480,7 +481,7 @@ color: #E3B505;
   height: auto;
   display: block;
   margin: 10% 10%;
-  padding: 5% 5%;
+  padding: 5%;
  
 }
 
