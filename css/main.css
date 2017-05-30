@@ -279,7 +279,7 @@ text-decoration: underline;
   border-spacing: 15px;
   width: 99%;
   border-radius: 10%;
-  border: 3px solid #5EFC8D;
+  border: 3px solid #E3B505;
   padding: 20px;
   margin: 5px;
   text-align: center;
@@ -294,7 +294,7 @@ text-decoration: underline;
 }
  .education th a {
 text-decoration: underline;
-color: #5EFC8D;
+color: #E3B505;
 }
 
 .education td {
@@ -310,7 +310,7 @@ color: #5EFC8D;
   border-spacing: 15px;
   width: 99%;
   border-radius: 10%;
-  border: 3px solid #E3B505;
+  border: 3px solid #6CCFF6;
   padding: 10px;
   margin: 40px 10px;
   text-align: center;
