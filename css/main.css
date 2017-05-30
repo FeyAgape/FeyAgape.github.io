@@ -432,7 +432,7 @@ color: #E3B505;
 .mediumLogo .col {
   float: left;
   width: 92%;
-  background-color: #64285a;
+  background-color: #E3B505;
   padding: 10px 40px;
   margin: 10px 10px;
   text-align: center;
@@ -442,12 +442,12 @@ color: #E3B505;
   list-style: none;
   padding: 0 0;
   text-align: center;
-  background-color: #64285a;
+  background-color: #E3B505;
 }
 
 .social li {
   display: inline;
-  background-color: #64285a;
+  background-color: #E3B505;
   text-align: center;
   }
  
