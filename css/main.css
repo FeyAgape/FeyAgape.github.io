@@ -108,15 +108,6 @@ p {
 overflow: hidden;
 }
 
-#name {
-  font-size: 1.25rem;
-  padding: 15px 10px;
-  font-weight: 600;
-  margin-left: 60px;
-  margin-right: 60px;
-  color: #5EFC8D;
-  text-transform: uppercase;
-}
 
 li {
     float: left;
@@ -134,9 +125,13 @@ li {
 }
 
 /* Change the link color on hover */
-.nav li a:hover {
+.nav li a:hover:not(.active) {
     background-color: #EAEFD3;
     color: #64285a;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 
 /*Banner Styling*/
