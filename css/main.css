@@ -149,14 +149,20 @@ li {
   width: 100%;
   display: block;
   margin: 0px auto;
-
+}
+@media screen and (min-width: 1370px) {
+   .jumbotron { height: 70rem;}
+	.jumbotron1 { height: 70rem;}
+	.jumbotron6 { height: 70rem;}
+	.jumbotron2 { height: 70rem;}
+	.jumbotron4 { height: 70rem;}
 }
 
 .jumbotron1 {
   background: url(images/me.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   display: block;
   margin: 0px auto;
 }
@@ -174,7 +180,7 @@ li {
   background: url(images/contactpage.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   display: block;
   margin: 0px auto;
 }
@@ -192,7 +198,7 @@ li {
   background: url(images/portfoliojumbo.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 50rem;
+  height: 60rem;
   display: block;
   margin: 0px auto;
 }
