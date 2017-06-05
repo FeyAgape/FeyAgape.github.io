@@ -153,10 +153,10 @@ li {
 }
 @media screen and (min-width: 1370px) {
    .jumbotron { height: 55rem;}
-	.jumbotron1 { height: 60rem;}
-	.jumbotron6 { height: 55rem;}
-	.jumbotron2 { height: 60rem;}
-	.jumbotron4 { height: 75rem;}
+	.jumbotron1 { height: 65rem;}
+	.jumbotron6 { height: 65rem;}
+	.jumbotron2 { height: 65rem;}
+	.jumbotron4 { height: 80rem;}
 }
 
 .jumbotron1 {
