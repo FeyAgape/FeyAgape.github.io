@@ -144,19 +144,12 @@ li {
 }
 
 .jumbotron {
-  background: url(images/landingpage.JPG) no-repeat center center;
+  background: url(images/jumbotron) no-repeat center center;
   background-size: cover;
-  height: 45rem;
+  height: 50rem;
   width: 100%;
   display: block;
   margin: 0px auto;
-}
-@media screen and (min-width: 1370px) {
-   .jumbotron { height: 55rem;}
-	.jumbotron1 { height: 65rem;}
-	.jumbotron6 { height: 65rem;}
-	.jumbotron2 { height: 65rem;}
-	.jumbotron4 { height: 80rem;}
 }
 
 .jumbotron1 {
