@@ -156,13 +156,13 @@ li {
   background: url(images/jumbotron1.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 40rem;
+  height: 45rem;
   display: block;
   margin: 0px auto;
 }
 
 .jumbotron6 {
-  background: url(images/aboutpage.jpg) no-repeat center center;
+  background: url(images/jumbotron6.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 45rem;
@@ -171,10 +171,10 @@ li {
 }
 
 .jumbotron2 {
-  background: url(images/contactpage.jpg) no-repeat center center;
+  background: url(images/jumbotron2.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   display: block;
   margin: 0px auto;
 }
@@ -189,22 +189,23 @@ li {
 }
 
 .jumbotron4 {
-  background: url(images/portfoliojumbo.jpg) no-repeat center center;
+  background: url(images/jumbotron4.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 60rem;
+  height: 50rem;
   display: block;
   margin: 0px auto;
 }
 
-.jumbotron5 {
+/*.jumbotron5 {
   background: url(images/meextra.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 35rem;
   display: block;
   margin: 0px auto;
-}
+}*/
+
 .welcome {
 	background-color: #EAEFD3;
 	margin: 0;
