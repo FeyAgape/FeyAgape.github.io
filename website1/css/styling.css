@@ -94,18 +94,16 @@ body, html {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: #efefd2;
 }
 
 .topnav a:active {
-  background-color: #4CAF50;
   color: white;
 }
 
@@ -113,11 +111,11 @@ body, html {
   display: none;
 }
 .topnav a:first-child {
-    width: 200px;
-    height: 30px;
-    /* padding: 0 0; 
-    /* margin-right: 20px; */
+    /*width: 200px;
+     padding: 0 0; 
+     margin-right: 20px; */
     float: left;
+    padding: 0 16px;
 }
 
 .topnav a:first-child:hover {
@@ -150,6 +148,18 @@ a:hover {
 }
 */
 /*Font-size ending*/
+
+
+.intro {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+}
+
+.intro h3 {
+  color: #000;
+}
 
 /*Parallax Image styling*/
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
