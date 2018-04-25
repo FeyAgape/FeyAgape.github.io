@@ -208,7 +208,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-.parallax-content-2 {
+.parallax-content-2 span {
     text-transform: capitalize;
     font-size: 22px;
     letter-spacing: 0;
