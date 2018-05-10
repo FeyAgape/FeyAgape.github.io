@@ -18,7 +18,7 @@
         }).done(addImage);
 
          $.ajax({
-        	url: `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=f1c69a7b01c34968b7e4da055884e63b`
+        	url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=f1c69a7b01c34968b7e4da055884e63b`
         }).done(addArticles);
 
     });
