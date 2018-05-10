@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project XHR</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="masthead">
+        <h1>Welcome! <br>What are you interested in today?</h1>
+        <h3>This search provides lists of the New York Times articles by month going back to 1851 to today on your related search.<br>It will retrieve headlines, snippet, word-count, material type, source and link.</h3>
+
+        <div class="site-container">
+            <form id="search-form" action="#">
+                <label for="search-keyword" class="visuallyhidden">What are you interested in today?</label>
+                <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Android" required>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </header>
+
+    <div class="site-container">
+        <div id="response-container"></div>
+    </div>
+
+    <section class="footer">
+        <div class="footer-container">
+          <div class="footer-row">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="https://ijawarefey.bitbucket.io/" target="_blank">Portfolio</a></li>
+                        <li><a href="https://medium.com/@feyagape" target="_blank">Blog</a></li>
+                        <li><a href="https://feyagape.github.io/" target="_blank">Website</a></li>
+                    </ul>
+                </nav>
+                <div class="copyrights-content">
+                    <span class="copyright" >
+                        © <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Fey Ijaware
+                    </span>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
