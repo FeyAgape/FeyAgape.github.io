@@ -54,7 +54,7 @@
                 <h2>${article.headline.main}<h2>
                 <p>${article.snippet}</p>
                 <p>Word Count: ${article.word_count}<br> Type of Material: ${article.type_of_material}<br>Source: ${article.source}</p>
-                <p><button class="button"><a href="${article.web_url}">View Article</a></button></p>
+                <p><button class="button"><a href="${article.web_url}" target="_blank">View Article</a></button></p>
             </li>`
 
           ).join('') + '</ul>';
