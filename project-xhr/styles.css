@@ -99,6 +99,7 @@ body {
 
 #response-container h2 {
   color: #166771;
+  padding-top: 10px;
 }
 
 #response-container p {
