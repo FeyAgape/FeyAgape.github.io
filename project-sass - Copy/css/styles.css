@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  background: #fafbfc;
+  font-family: OpenSans, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.banner {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  background-image: url("../images/lemonade.jpg"); }
+  .banner .slogan {
+    position: absolute;
+    border: 4px solid black;
+    top: 200px;
+    left: 25%;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3); }
+  .banner span {
+    font-size: 24px;
+    line-height: 200px; }
+
+.container {
+  text-align: center;
+  font-family: 'Pacifico', cursive; }
+
+.icon {
+  display: inline-block;
+  margin: 2%;
+  border: 4px solid black;
+  font-size: 32px;
+  width: 300px;
+  height: 300px; }
+
+.masthead {
+  background: #166771;
+  padding: 2em 0; }
+  .masthead h1 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 0.2em; }
+  .masthead h3 {
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    margin: 1.2em 0;
+    text-align: center; }
+
+/*footer Styling*/
+.footer {
+  width: 100%;
+  background-color: #FFFFFF;
+  line-height: 36px; }
+  .footer ul li a:hover {
+    color: #777777;
+    opacity: 1; }
+
+.footer-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 70%; }
+
+.footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.copyrights-content {
+  line-height: 85px;
+  margin-left: auto !important; }
+
+.copyright {
+  color: #A49E9E;
+  font-size: 14px;
+  padding: 10px 0px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center; }
+  .copyright a {
+    color: #777777;
+    margin-bottom: 3px;
+    line-height: 1.6;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none; }
+  .copyright a:hover {
+    color: #777777;
+    opacity: 1; }
+
+.footer-nav {
+  line-height: 85px; }
+  .footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+  .footer-nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center; }
+  .footer-nav ul li a {
+    color: #777777;
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1.6;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none; }
+
+.heart {
+  color: #e91e63;
+  animation: heathing 1s ease infinite; }
+  .heart :hover {
+    color: #e91e63ad; }
+
+@keyframes heathing {
+  0% {
+    transform: scale(0.75); }
+  20% {
+    transform: scale(1); }
+  40% {
+    transform: scale(0.75); }
+  60% {
+    transform: scale(1); }
+  80% {
+    transform: scale(0.75); }
+  100% {
+    transform: scale(0.75); } }
+
+i.fa.fa-heart.heart {
+  width: 40px !important;
+  padding: 0 !important;
+  margin: 0 !important; }
+
+/*footer ending*/
+/*font-Awesome styling*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 10px; }
+  .fa :hover {
+    opacity: 0.7; }
