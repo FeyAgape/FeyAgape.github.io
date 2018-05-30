@@ -1,0 +1,10 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("images/zoriana-stakhniv-347480-unsplash.jpg")}
+.bgimg2 {background-image: url("images/flowers.jpg")}
