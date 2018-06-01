@@ -163,6 +163,12 @@ i.fa.fa-heart.heart {
   }
 }
 
+@media (max-width:600px){
+  .w3-display-bottomleft.w3-container.w3-text-black {
+    position: relative;
+  }
+}
+
 @media (max-width:375px){
   .footer-container {
     padding-right: 0;
