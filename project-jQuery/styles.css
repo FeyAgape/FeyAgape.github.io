@@ -378,3 +378,45 @@ i.fa.fa-heart.heart {
 
 
 /*font-Awesome ending*/
+
+@media (max-width:850px){
+  .footer-container {
+    max-width: 90%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width:650px){
+  .footer-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .footer-nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+  }
+  .footer-nav ul li {
+    padding: 0 15px;
+    margin: 0px 3px;
+  }
+.copyrights-content {
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+  }
+}
+
+@media (max-width:375px){
+  .footer-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .footer-nav ul li {
+    padding: 0 8px;
+    margin: 0px 3px;
+  }
+}
