@@ -7,7 +7,12 @@ p {line-height: 2}
     background-size: cover;
 }
 .bgimg {background-image: url("images/image2a.png")}
-.bgimg2 {background-image: url("images/image5.png")}
+.bgimg2 {background-image: url("images/image4.png")}
+
+
+h1.w3-jumbo {
+    line-height: 1.1;
+}
 
 /*footer Styling*/
 .footer {
