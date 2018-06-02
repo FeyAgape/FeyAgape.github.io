@@ -160,6 +160,12 @@ i.fa.fa-heart.heart {
   }
 }
 
+@media (max-width:600px){
+  .w3-half:first-child {
+    margin-bottom: 5%;
+}
+}
+
 @media (max-width:375px){
   .footer-container {
     padding-right: 0;
