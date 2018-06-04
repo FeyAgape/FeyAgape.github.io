@@ -7,10 +7,19 @@ p {line-height: 2}
     background-size: cover;
 }
 .bgimg {background-image: url("images/image2a.png")}
-.bgimg2 {background-image: url("images/image5.png")}
+.bgimg2 {background-image: url("images/image4.png")}
+
+
+h1.w3-jumbo {
+    line-height: 1.1;
+}
+
+button a {
+  text-decoration: none;
+}
 
 /*footer Styling*/
-.footer {
+footer {
   width: 100%;
   background-color: #000;
   line-height: 36px;}
@@ -149,6 +158,18 @@ i.fa.fa-heart.heart {
     width: 100%;
     line-height: 50px;
   }
+}
+
+@media (max-width:600px){
+  .w3-half:first-child {
+    margin-bottom: 5%;
+}
+}
+
+@media (max-width:450px){
+  .w3-display-middle.w3-text-white.w3-center {
+    width: 95%;
+}
 }
 
 @media (max-width:375px){
