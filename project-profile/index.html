@@ -354,5 +354,12 @@ var x = document.getElementById("myTopnav");
       });
     });
 </script>
+<script> 
+    $(window).resize(function() {
+      $('.bgimg-1').height($(window).height());
+    });
+
+    $(window).trigger('resize');
+  </script>
 </body>
 </html>
