@@ -59,8 +59,12 @@ body, html {
 }
 
 .content {
-  padding: 5%;
+  padding: 2.5%;
   overflow: hidden;
+}
+
+.right{
+  float: right;
 }
 
 /*Header styling*/
@@ -154,6 +158,7 @@ a:hover {
   background-color:white;
   text-align:center;
   padding:50px 80px;
+  color: #451227;
 }
 
 .intro h3 {
