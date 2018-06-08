@@ -5,11 +5,10 @@
     }
 }
 @media screen and (max-width: 1280px) {
-  img.topnav-img {
-    width: 380px;
-}
+  
   }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
