@@ -155,14 +155,14 @@ var x = document.getElementById("myTopnav");
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <p>I love attending hackathons and I am very active in Manchester's Tech communities by attending various Tech Events. I am also a writer, sharing my stories about how I got into Tech. I love being active and outdoor, so in my spare time and when the weather is good, am an avid biker, hiking, canoeing or rock climbing.</p>
-  <p>Mostly I love spending time with my Friends and family, expecially my two nephews and I love to travel. Cooking and baking is also something I like to do in my spare time as it's a very creativ activity and it helps me relax.</p>
+  <p>Mostly I love spending time with my Friends and family, expecially my two nephews and I love to travel. Cooking and baking is also something I like to do in my spare time as it's a very creative activity and it helps me relax.</p>
 </div>
 
 <section class="content" id="skills" style="background-color: #f6f6f6;">
 <div class="intro">
   <h3>Skills</h3>
   <p><i>I am a versatile programmer with knowledge and interest to learn and code.</i></p>
-  <p>Below are the lists of languagues, frameworks, services and technologies I am skilled at, which I use regually at work and some I also use personally.</p>
+  <p>Below are the lists of languagues, frameworks, services and technologies I am skilled at, which I use regularly at work and some I also use personally.</p>
 </div>
 
      <div class="regular slider">
@@ -230,6 +230,39 @@ var x = document.getElementById("myTopnav");
 
 </section>
 
+
+<section class="content" id="projects" style="background-color: #fff;">
+<div class="intro" style="background-color: #f6f6f6;">
+  <h3>Projects</h3>
+  <p><i>I think what makes me competent at different languages and frameworks is that I am able to look up documentations.</i></p>
+  <p>I utilize Test-driven Development(TDD), a programming technique throughtout all the stages of my project development. Below are my recent projects.</p>
+</div>
+
+<div class="portfolio slider">
+    <div class="project-slider">
+    	<img class="" src="images/projects/projects1.png" alt="AWS Logo" width="521" height="355">
+      <h2>AWS</h2>
+      <p>I am skilled with using Amazon Web Services Route 53, S3, Cloudfront, EC2, Lambda, Lightsail and DynamoDB.</p>
+    </div>
+    <div class="project-slider">
+    	<img class="" src="images/projects/projects2.png" alt="AWS Logo" width="521" height="355">
+      <h2>AWS</h2>
+      <p>I am skilled with using Amazon Web Services Route 53, S3, Cloudfront, EC2, Lambda, Lightsail and DynamoDB.</p>
+    </div>
+    <div class="project-slider">
+    	<img class="" src="images/projects/projects3.png" alt="AWS Logo" width="521" height="355">
+      <h2>AWS</h2>
+      <p>I am skilled with using Amazon Web Services Route 53, S3, Cloudfront, EC2, Lambda, Lightsail and DynamoDB.</p>
+    </div>
+    <div class="project-slider">
+    	<img class="" src="images/projects/projects4.png" alt="AWS Logo" width="521" height="355">
+      <h2>AWS</h2>
+      <p>I am skilled with using Amazon Web Services Route 53, S3, Cloudfront, EC2, Lambda, Lightsail and DynamoDB.</p>
+    </div>
+</div>
+
+</section>
+
 <div class="bgimg-2">
   <div class="caption">
   	<div class="parallax-content-3">
@@ -261,44 +294,6 @@ var x = document.getElementById("myTopnav");
   </div>
 </section>
 
-<div class="bgimg-2">
-  <div class="caption">
-    <p class="parallax-content-1" >LESS HEIGHT</p>
-    <div class="vertical-center-2 slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </div>
-  
-  </div>
-</div>
 <section class="content">
   <div class="third-container">
     <h3>On Scroll Sticky Header</h3>
@@ -472,6 +467,26 @@ var x = document.getElementById("myTopnav");
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+      $(".portfolio").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
