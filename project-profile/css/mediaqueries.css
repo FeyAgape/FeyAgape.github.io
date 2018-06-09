@@ -76,6 +76,9 @@ img.topnav-img {
   .parallax-content-2 {
     width: 50%;
 }
+.parallax-content-3 {
+    width: 50%;
+}
  .topnav a:first-child {
     padding: 15px 0;
 }
@@ -92,6 +95,9 @@ a.icon {
 
 @media (max-width:450px){
   .parallax-content-2 {
+    width: 70%;
+}
+.parallax-content-3 {
     width: 70%;
 }
 .topnav a {
@@ -112,6 +118,9 @@ a.icon {
 
 @media (max-width:350px){
   .parallax-content-2 {
+    width: 80%;
+}
+.parallax-content-3 {
     width: 80%;
 }
   }
