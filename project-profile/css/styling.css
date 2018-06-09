@@ -103,11 +103,11 @@ body, html {
 }
 
 .topnav a:hover {
-  color: #efefd2;
+  color:#86a4bb;
 }
 
 .topnav a:active {
-  color: white;
+  color: #fff;
 }
 
 .topnav .icon {
@@ -166,7 +166,7 @@ a:hover {
 }
 
 /*Parallax Image styling*/
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6  {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7  {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -199,6 +199,11 @@ a:hover {
   background-image: url("../images/coop.jpg");
   min-height: 100%;
 }
+.bgimg-7 {
+  background-image: url("../images/holiday.jpg");
+  min-height: 70%;
+}
+
 .caption {
   position: absolute;
   left: 0;
