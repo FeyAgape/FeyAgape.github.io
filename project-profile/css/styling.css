@@ -264,8 +264,33 @@ a:hover {
     letter-spacing: 0;
 }
 
-
 /*Parallax ending*/
+
+.regular.slider.slick-initialized.slick-slider.slick-dotted {
+    width: 80%;
+    background-color: #fff;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.skill-slider {
+    
+}
+
+.skill-slider img {
+    width: 120px !important;
+    height: 120px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skill-slider h2 {
+    text-align: center;
+}
+
+.skill-slider p {
+    text-align: center;
+}
 
 /*font-Awesome styling*/
 .fa {
