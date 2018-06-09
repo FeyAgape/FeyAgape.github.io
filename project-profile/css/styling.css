@@ -316,6 +316,31 @@ a:hover {
     margin-right: auto;
 }
 
+.portfolio.slider.slick-initialized.slick-slider.slick-dotted {
+    width: 85%;
+    background-color: #fff;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.blog-slider img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blog-slider h2 {
+    text-align: center;
+}
+
+.blog-slider p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*font-Awesome styling*/
 .fa {
   padding: 20px;

@@ -49,6 +49,13 @@ img.topnav-img {
 .regular.slider.slick-initialized.slick-slider.slick-dotted .slick-dots {
     display: none !important;
     }
+
+.parallax-content-2 {
+    width: 40%;
+}
+.parallax-content-3 {
+    width: 40%;
+}
   }
 
   @media (max-width:650px){
