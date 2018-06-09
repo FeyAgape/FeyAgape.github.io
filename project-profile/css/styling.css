@@ -166,7 +166,7 @@ a:hover {
 }
 
 /*Parallax Image styling*/
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6  {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -189,6 +189,14 @@ a:hover {
 }
 .bgimg-4 {
   background-image: url("../images/graduation.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
+  background-image: url("../images/fcc.jpg");
+  min-height: 100%;
+}
+.bgimg-6 {
+  background-image: url("../images/coop.jpg");
   min-height: 100%;
 }
 .caption {
