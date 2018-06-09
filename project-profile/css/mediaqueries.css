@@ -46,6 +46,9 @@
 img.topnav-img {
     width: 300px;
 }
+.regular.slider.slick-initialized.slick-slider.slick-dotted .slick-dots {
+    display: none !important;
+    }
   }
 
   @media (max-width:650px){

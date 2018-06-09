@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('../../images/ajax-loader.gif') center center no-repeat;
+    background: #fff url('../images/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('../../fonts/slick/slick.eot');
-    src: url('../../fonts/slick/slick.eot?#iefix') format('embedded-opentype'), url('../../fonts/slick/slick.woff') format('woff'), url('../../fonts/slick/slick.ttf') format('truetype'), url('../../fonts/slick/slick.svg#slick') format('svg');
+    src: url('../fonts/slick/slick.eot');
+    src: url('../fonts/slick/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick/slick.woff') format('woff'), url('../fonts/slick/slick.ttf') format('truetype'), url('../fonts/slick/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
@@ -73,11 +73,11 @@
 
 .slick-prev
 {
-    left: -15px;
+    left: 1px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -15px;
+    right: 1px;
     left: auto;
 }
 .slick-prev:before
@@ -93,12 +93,12 @@
 
 .slick-next
 {
-    right: -15px;
+    right: 1px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -15px;
+    left: 1px;
 }
 .slick-next:before
 {
