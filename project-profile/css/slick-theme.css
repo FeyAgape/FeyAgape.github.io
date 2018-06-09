@@ -83,12 +83,12 @@
 .slick-prev:before
 {
     content: '←';
-    color: #950952;
+    color: #451227;
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
-    color: #950952;
+    color: #451227;
 }
 
 .slick-next
@@ -103,12 +103,12 @@
 .slick-next:before
 {
     content: '→';
-    color: #950952;
+    color: #451227;
 }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
-    color: #950952;
+    color: #451227;
 }
 
 /* Dots */
@@ -120,7 +120,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -35px;
     display: block;
     width: 100%;
     padding: 0;
@@ -182,7 +182,7 @@
     content: '•';
     text-align: center;
     opacity: .25;
-    color: #950952;
+    color: #451227;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -190,5 +190,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #950952;
+    color: #451227;
 }

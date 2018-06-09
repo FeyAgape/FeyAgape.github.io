@@ -290,6 +290,9 @@ a:hover {
 
 .skill-slider p {
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*font-Awesome styling*/
@@ -374,7 +377,7 @@ a:hover {
     }
     
     .slick-active {
-      opacity: .5;
+      opacity: 1;
     }
 
     .slick-current {
