@@ -385,6 +385,16 @@ a:hover {
   color: white;
 }
 
+.fa-github {
+  background: #000;
+  color: white;
+}
+
+.fa-medium {
+  background: #777;
+  color: white;
+}
+
 .fa-snapchat-ghost {
   background: #fffc00;
   color: white;
