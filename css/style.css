@@ -202,6 +202,12 @@ h2.title {
 .tab-pane p {
     width: 100%;
 }
+.info {
+    padding-top: 30px;
+}
+.h3 {
+    line-height: 1em;
+}
 }
 
 /*.whitespace {
