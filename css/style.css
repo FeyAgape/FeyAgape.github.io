@@ -203,10 +203,18 @@ h2.title {
     width: 100%;
 }
 .info {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .h3 {
     line-height: 1em;
+}
+.card-body {
+    padding: 4% 3% !important;
+}
+.padding-space {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 }
 
