@@ -192,6 +192,10 @@ footer ul li a {
     padding-top: 0;
     margin-bottom: 0;
 }
+.col-md-8.ml-auto.mr-auto {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 }
 
 /*.whitespace {
