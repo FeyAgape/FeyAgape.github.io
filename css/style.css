@@ -196,6 +196,12 @@ footer ul li a {
     padding-left: 5%;
     padding-right: 5%;
 }
+h2.title {
+    line-height: 1em;
+}
+.tab-pane p {
+    width: 100%;
+}
 }
 
 /*.whitespace {
