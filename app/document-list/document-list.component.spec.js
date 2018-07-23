@@ -28,7 +28,6 @@ describe('documentList', function() {
     });
 
     it('should set a default value for the `orderProp` property', function() {
-      expect(ctrl.orderProp).toBe('added');
       expect(ctrl.orderProp).toBe('type');
     });
 
