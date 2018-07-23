@@ -7,7 +7,6 @@ angular.
     templateUrl: 'document-list/document-list.template.html',
     controller: ['$http', function DocumentListController($http) {
       var self = this;
-      self.orderProp = 'added';
       self.orderProp = 'type';
 
       $http.get('documents/documents.json').then(function(response) {
