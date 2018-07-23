@@ -1,0 +1,45 @@
+[ 
+    {
+        "added":"2017-05-02", 
+        "id": "file-one",
+        "type":"csv", 
+        "imageUrl": "img/csv.jpg", 
+        "name": "Expenses Claim Form"
+    }, 
+    
+    {
+        "added":"2014-05-02",  
+        "id": "file-two",
+        "type":"pdf", 
+        "imageUrl": "img/pdf.jpg", 
+        "name": "Employee Handbook"
+    }, 
+    {
+       "added":"2015-05-02",  
+        "id": "file-three",
+        "type":"word", 
+        "imageUrl": "img/word.jpg", 
+        "name": "Public Holiday policy"
+    }, 
+    {
+        "added":"2016-05-02",  
+        "id": "file-four", 
+        "type":"powerpoint",
+        "imageUrl": "img/powerpoint.jpg", 
+        "name": "Welcome to the Company!"
+    },
+    {
+        "added":"2016-07-02", 
+        "id": "file-five",
+        "type":"csv", 
+        "imageUrl": "img/csv.jpg", 
+        "name": "Christmas Party Form"
+    },
+    {
+       "added":"2017-09-02",  
+        "id": "file-six",
+        "type":"word", 
+        "imageUrl": "img/word.jpg", 
+        "name": "Fuel Allowances"
+    }
+]

@@ -1,0 +1,23 @@
+<a href="index.html#!">home</a>
+
+<img ng-src="{{$ctrl.document.images}}" class="document" />
+
+<h1>{{$ctrl.document.name}}</h1>
+
+<p>{{$ctrl.document.description}}</p>
+
+
+
+<ul class="details">
+ <li>
+
+    <span>{{$ctrl.document.fileSize}}</span>
+    <dl>
+      <dt>Additional Instruction</dt>
+      <dd>{{$ctrl.document.additionalInstruction}}</dd>
+      <dt>Availability</dt>
+      <dd>{{$ctrl.document.availability}}</dd>
+    </dl>
+  </li>
+  
+</ul>
