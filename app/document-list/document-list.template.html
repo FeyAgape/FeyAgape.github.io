@@ -27,7 +27,7 @@
             <img ng-src="{{document.imageUrl}}" alt="{{document.name}}" />
           </a>
           <a href="#!/documents/{{document.id}}">{{document.name}}</a>
-          <p>{{document.type}}</p>
+          <p>{{document.type | uppercase}}</p>
           <p>{{document.added | date}}</p>
         </li>
       </ul>
