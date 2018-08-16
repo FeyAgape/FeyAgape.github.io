@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dfe7f2;
+      }
+
+      .cls-2 {
+        fill: #0092e8;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-44" y="-43" width="3116" height="3082"/>
+  <circle class="cls-2" cx="1083" cy="1500" r="533"/>
+</svg>
