@@ -154,6 +154,12 @@ footer .copyright p {
 .col-md-6.text-left.col-z-index.last-child-col p:last-child {
  padding-bottom: 5%;
 }
+.row.special {
+    flex-direction: column-reverse;
+}
+.col-md-6.text-left.col-z-index.last-child-col {
+    padding-top: 5%;
+}
 }
 
 @media screen and (max-width: 768px) {
