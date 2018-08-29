@@ -191,6 +191,9 @@ footer ul li a {
 }
 
 @media screen and (max-width: 450px) {
+ .main-raised {
+    margin: -60px 12px 0px;
+}
 footer ul li a {
     padding: 0.1rem;
     }
